@@ -1,0 +1,83 @@
+body{
+background: linear-gradient(to left, #8942a8, #ba382f);
+font:500
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  font-size:160%;
+  text-align: center;
+  color: black;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+
+.FUG {
+  position: relative;
+  top: 10px;
+  margin-top: 4px;
+  border: 0;
+  border-radius: 50px;
+  width: 50px;
+  
+}
+
+.FUGONE {
+  position: relative;
+  top: 10px;
+  margin-top: 4px;
+  border: 0;
+  border-radius: 50px;
+  width: 50px;
+  
+}
+
+
+.connectWallet {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+
+.TextField {
+  text-align: center;
+  margin-top: 32px;
+  padding: 16px;
+  border: 5;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:1px;
+  width:500px; 
+}
