@@ -3,11 +3,12 @@ download and inside the directory and run
 
 ```npm install --save-dev hardhat
 
-npx hardhat 
+npx hardhat test 
 
 test for the unit Test
 
 write and send messages to me via the rinkeby test net 
+
 ```
 
 ```shell
