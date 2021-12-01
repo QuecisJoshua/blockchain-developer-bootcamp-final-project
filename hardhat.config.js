@@ -17,7 +17,7 @@ module.exports = {
   networks: {
     rinkeby: {
       url: '',
-      accounts: [''],
+      accounts: ['de26dacdea320107dd6a5bc503e38fca12124df4443a63b71da440d17ef53b52'], //SAMPLE KEY JUST FOR TESTING ONLY
     },
   },
 };
