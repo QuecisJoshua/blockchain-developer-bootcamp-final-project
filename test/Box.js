@@ -11,13 +11,13 @@ describe('WavePortal', function () {
   });
 
   // Test case
-  it('retrieve returns a value previously stored', async function () {
-    
-  });
+it('retrieve the signer', async function () {
+const [owner] = await ethers.getSigners();    
+});
 
-  it('verifies the address', async function () {
-    
-  });
+it('Get Contract Factory Instance', async function () {   
+    const wave = await ethers.getContractFactory("WavePortal");
+});
 
   it('storing the message', async function () {
     
